@@ -12,10 +12,6 @@ use InvalidArgumentException;
 use Spryker\Zed\Kernel\Communication\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 
-/**
- * @method \Spryker\Zed\DiscountMerchantSalesOrderGui\Communication\DiscountMerchantSalesOrderGuiCommunicationFactory getFactory()
- * @method \Spryker\Zed\DiscountMerchantSalesOrderGui\Business\DiscountMerchantSalesOrderGuiFacadeInterface getFacade()
- */
 class MerchantSalesOrderController extends AbstractController
 {
     /**
